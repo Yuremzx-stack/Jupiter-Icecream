@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en"><head>
+  <meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Visit – Jupiter's Ice Cream</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/styles.css"/>
+</head><body>
+<header class="sticky top-0 z-50 glass border-b border-gray-100 shadow-soft">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex items-center justify-between h-20">
+      <a href="./index.html" class="flex items-center space-x-3 group">
+        <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68e55ccc789403ff3d09fbe0/df5a97724_Screenshot2025-10-07113936.png" alt="Jupiter's Ice Cream" class="h-16 w-16 object-contain"/>
+        <div class="hidden sm:block"><div class="text-xl font-bold text-[#3A2E2B]">Jupiter's Ice Cream</div><div class="text-xs text-gray-500">Manor, Texas</div></div>
+      </a>
+      <nav class="hidden md:flex items-center space-x-1 nav">
+        <a href="./index.html">Home</a>
+        <a href="./menu.html">Menu</a>
+        <a href="./about.html">About</a>
+        <a href="./visit.html" class="active">Visit Us</a>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="relative py-20 px-4 sm:px-6 lg:px-8 hero-bg">
+    <div class="max-w-4xl mx-auto text-center">
+      <p class="text-sm font-semibold text-[#5CA7FF] uppercase tracking-wider mb-3">Visit Us</p>
+      <h1 class="text-5xl md:text-6xl font-bold text-[#3A2E2B] mb-6">Come by and say hi!</h1>
+      <p class="text-xl text-gray-600 max-w-2xl mx-auto">We're open daily and ready to serve you the best treats in Manor</p>
+    </div>
+  </section>
+
+  <section class="py-16 px-4 sm:px-6 lg:px-8 bg-white">
+    <div class="max-w-6xl mx-auto grid lg:grid-cols-2 gap-12">
+      <div class="space-y-6">
+        <div class="card bg-white shadow-soft p-8">
+          <h3 class="text-xl font-bold text-[#3A2E2B] mb-2">Address</h3>
+          <p class="text-gray-600 mb-4">13225 George Bush St<br/>Building 2, Ste 400<br/>Manor, TX 78653</p>
+          <a href="https://www.google.com/maps?q=13225%20George%20Bush%20St%2C%20Manor%2C%20TX%2078653" target="_blank" rel="noopener" class="btn btn-grad">Get Directions</a>
+        </div>
+        <div class="card bg-white shadow-soft p-8">
+          <h3 class="text-xl font-bold text-[#3A2E2B] mb-2">Phone</h3>
+          <p class="text-gray-600 mb-4"><a href="tel:+15122942525" class="hover:underline">(512) 294-2525</a></p>
+          <a href="tel:+15122942525" class="btn btn-grad text-white">Call Now</a>
+        </div>
+        <div class="card bg-white shadow-soft p-8">
+          <h3 class="text-xl font-bold text-[#3A2E2B] mb-2">Hours</h3>
+          <p class="text-gray-600">Monday - Sunday<br/>12:00 PM – 9:00 PM</p>
+        </div>
+      </div>
+      <div class="card bg-white shadow-soft overflow-hidden">
+        <iframe src="https://www.google.com/maps?q=13225%20George%20Bush%20St%2C%20Manor%2C%20TX%2078653&output=embed" width="100%" height="100%" style="border:0; min-height:500px" loading="lazy" allowfullscreen="" referrerpolicy="no-referrer-when-downgrade" title="Location"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-white to-[#FFF7E8]">
+    <div class="max-w-3xl mx-auto card bg-white shadow-soft p-8 text-center">
+      <h2 class="text-3xl font-bold text-[#3A2E2B] mb-4">Get in touch</h2>
+      <p class="text-gray-600 mb-6">Have a question or special request? We'd love to hear from you!</p>
+      <a href="mailto:info@example.com" class="btn btn-grad inline-block">Email Us</a>
+    </div>
+  </section>
+</main>
+
+<footer class="footer mt-20">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 text-center text-sm text-gray-300">
+    <p>&copy; <span id="year"></span> Jupiter's Ice Cream. All rights reserved.</p>
+  </div>
+</footer>
+<script src="./assets/main.js" defer></script>
+</body></html>
