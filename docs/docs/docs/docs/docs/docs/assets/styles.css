@@ -1,0 +1,19 @@
+:root{--cream:#FFF7E8;--mint:#B8F2E6;--strawberry:#FF7BA9;--blueberry:#5CA7FF;--chocolate:#3A2E2B;--dark:#1B1B1B;}
+body{background:var(--cream);font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
+h1,h2,h3,h4,h5,h6{font-family:Poppins,Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
+.glass{backdrop-filter:blur(8px);background:rgba(255,255,255,.9)}
+.hero-bg{background:
+  radial-gradient(circle at 20% 50%, rgba(184,242,230,.35) 0%, transparent 50%),
+  radial-gradient(circle at 80% 80%, rgba(255,123,169,.35) 0%, transparent 50%)}
+.shadow-soft{box-shadow:0 8px 24px rgba(0,0,0,.08)}
+.card{border:0;border-radius:1rem;transition:all .25s ease}
+.card:hover{box-shadow:0 16px 40px rgba(0,0,0,.12);transform:translateY(-2px)}
+.btn{display:inline-block;padding:.9rem 1.6rem;border-radius:9999px;font-weight:600}
+.btn-grad{background-image:linear-gradient(90deg,var(--strawberry),var(--blueberry));color:#fff}
+.btn-outline{border:2px solid var(--chocolate);color:var(--chocolate)}
+.btn-outline:hover{background:var(--chocolate);color:#fff}
+.footer{background:var(--chocolate);color:#fff}
+.nav a{padding:.5rem 1rem;border-radius:.6rem;font-weight:500}
+.nav a.active{background:#B8F2E650;color:#3A2E2B}
+.nav a:not(.active){color:#374151}
+.nav a:not(.active):hover{background:#F3F4F6}
